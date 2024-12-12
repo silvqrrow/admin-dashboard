@@ -1,54 +1,7 @@
-*,
-*::before,
-*::after {
-  box-sizing: border-box;
-}
 * {
   margin: 0;
+  font-family: "Roboto";
 }
-body {
-  line-height: 1.5;
-  -webkit-font-smoothing: antialiased;
-}
-img,
-picture,
-video,
-canvas,
-svg {
-  display: block;
-  max-width: 100%;
-}
-input,
-button,
-textarea,
-select {
-  font: inherit;
-}
-p,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  overflow-wrap: break-word;
-}
-p {
-  text-wrap: pretty;
-}
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  text-wrap: balance;
-}
-#root,
-#__next {
-  isolation: isolate;
-}
-
 .main__container {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
@@ -69,4 +22,42 @@ h6 {
 .main__container-content {
   background-color: #e2e8f0;
   grid-area: 2 / 2 / 7 / 6;
+}
+
+/* Sidebar */
+.sidebar__container {
+  display: grid;
+  grid-template-rows: repeat(3, 1fr);
+  margin: 2rem;
+  row-gap: 3rem;
+  max-height: 40vh;
+}
+
+.sidebar__container-dashboard {
+  display: grid;
+  grid-template-columns: 0.25fr 1fr;
+}
+
+.sidebar-title {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #ffffff;
+}
+
+.sidebar__container-options {
+  display: grid;
+  grid-template-columns: 0.25fr 1fr;
+}
+
+.sidebar-options-text {
+  display: grid;
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 1.2rem;
+  row-gap: 1rem;
+}
+
+.sidebar-options-logos {
+  display: grid;
+  row-gap: 1rem;
 }
