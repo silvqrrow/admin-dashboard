@@ -30,7 +30,7 @@
   grid-template-rows: repeat(3, 1fr);
   margin: 2rem;
   row-gap: 3rem;
-  max-height: 40vh;
+  max-height: 50vh;
 }
 
 .sidebar__container-dashboard {
