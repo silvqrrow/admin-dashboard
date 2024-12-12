@@ -136,3 +136,20 @@
   font-size: 20px;
   margin-top: 0.5rem;
 }
+
+.content-buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+  margin-bottom: 1rem;
+}
+
+button {
+  border-radius: 20px;
+  background-color: #1992d4;
+  padding: 0.5rem 1.75rem;
+  color: #ffffff;
+  border: none;
+  font-size: 1rem;
+}
