@@ -87,3 +87,23 @@
   border: none;
   background-color: #e1e8f0;
 }
+
+.notification-profile {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.notification-profile * {
+  margin-right: 2.5rem;
+}
+
+#profile-icon {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+}
+
+#profile-name {
+  font-weight: 700;
+}
