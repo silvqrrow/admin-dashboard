@@ -48,3 +48,25 @@ h6 {
 #__next {
   isolation: isolate;
 }
+
+.main__container {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(6, 1fr);
+  width: 100vw;
+  height: 100vh;
+}
+
+.main__container-sidebar {
+  background-color: #1992d4;
+  grid-area: 1 / 1 / 7 / 1;
+}
+
+.main__container-header {
+  background-color: #ffffff;
+  grid-area: 1 / 2 / 2 / 6;
+}
+.main__container-content {
+  background-color: #e2e8f0;
+  grid-area: 2 / 2 / 7 / 6;
+}
