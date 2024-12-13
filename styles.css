@@ -6,8 +6,7 @@
   display: grid;
   grid-template-columns: repeat(5, 1fr);
   grid-template-rows: repeat(6, 1fr);
-  width: 100vw;
-  height: 100vh;
+  max-height: 100vh;
 }
 
 .main__container-sidebar {
@@ -226,7 +225,7 @@ button {
 }
 
 .announcements {
-  height: 50%;
+  height: 45%;
   margin-top: 2rem;
 }
 
@@ -275,4 +274,33 @@ button {
   font-size: 13px;
   color: #585858;
   line-height: 1.5;
+}
+
+.trending {
+  margin-top: 2rem;
+}
+.trending-grid {
+  margin-top: 1rem;
+  display: grid;
+  grid-template-rows: repeat(4, 1fr);
+}
+
+.trending-card {
+  background: white;
+  display: flex;
+  align-items: center;
+  padding: 0.5rem;
+  gap: 30px;
+  width: 350px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.profile-name {
+  font-weight: 700;
+  font-size: 15px;
+}
+
+.profile-description {
+  font-size: 13px;
+  color: #585858;
 }
